@@ -1,0 +1,34 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="ojtools:war exploded">
+    <output-path>$PROJECT_DIR$/target/ojtools</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>ojtools</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ojtools" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:8.0.13" />
+          <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:3.6.1" />
+          <element id="library" level="project" name="Maven: com.mchange:c3p0:0.9.5.4" />
+          <element id="library" level="project" name="Maven: com.mchange:mchange-commons-java:0.2.15" />
+          <element id="library" level="project" name="Maven: javax.servlet.jsp.jstl:jstl-api:1.2" />
+          <element id="library" level="project" name="Maven: javax.servlet:servlet-api:2.5" />
+          <element id="library" level="project" name="Maven: javax.servlet.jsp:jsp-api:2.1" />
+          <element id="library" level="project" name="Maven: commons-dbutils:commons-dbutils:1.6" />
+          <element id="library" level="project" name="Maven: taglibs:standard:1.1.1" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/ojtools/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="ojtools/web/Web" />
+    </root>
+  </artifact>
+</component>
