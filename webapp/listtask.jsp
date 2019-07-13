@@ -27,7 +27,7 @@
 <nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> ${sessionScope.username} <span class="c-gray en">&gt;</span> 偷题列表 <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
 <div class="page-container">
 
-    <div class="cl pd-5 bg-1 bk-gray mt-20"> <a href="${pageContext.request.contextPath}\ExitServlet" class="btn btn-danger radius"><i class="Hui-iconfont"></i> 退出</a></span> </div>
+    <div class="cl pd-5 bg-1 bk-gray mt-20"> <span class="1"><a style="margin-right: 5px;"href="${pageContext.request.contextPath}\ExitServlet" class="btn btn-danger radius"><i class="Hui-iconfont"></i> 退出</a><a href="tutorial/tutorial.jsp" target="_blank" class="btn btn-primary radius"><i class="icon-trash"></i>查看教程</a></span> </div>
     <div class="mt-20">
         <table class="table table-border table-bordered table-hover table-bg table-sort">
             <thead>
