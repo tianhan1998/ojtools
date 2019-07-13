@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c3p0-config>
+    <default-config>
+        <property name="driverClass">com.mysql.jdbc.Driver</property>
+        <property name="jdbcUrl">jdbc:mysql://localhost:3306/oj?serverTimezone=GMT%2B8</property>
+        <property name="user">root</property>
+        <property name="password">root</property>
+        <!-- 等待获取新连接的最大时间，单位是毫秒 -->
+        <property name="checkoutTimeout">30000</property>
+        <!-- 初始化连接池中的连接数 -->
+        <property name="initialPoolSize">10</property>
+        <!-- 数据库连接的最大空闲时间 -->
+        <property name="maxIdelTime">30</property>
+        <property name="maxPoolSize">100</property>
+        <property name="minPoolSize">10</property>
+        <!-- 连接池为数据源缓存的PreparedStatement的总数 -->
+        <property name="maxStatements">200</property>
+    </default-config>
+    <name-config name="itcast">
+        <property name="driverClass">com.mysql.jdbc.Driver</property>
+        <property name="jdbcUrl">jdbc:mysql://localhost:3306/ch11</property>
+        <property name="user">root</property>
+        <property name="password">111</property>
+        <!-- 初始化连接池中的连接数 -->
+        <property name="initialPoolSize">5</property>
+        <property name="maxPoolSize">15</property>
+    </name-config>
+</c3p0-config>
