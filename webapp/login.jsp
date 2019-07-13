@@ -573,6 +573,9 @@
 						<div class="text-foot">
 							<a href="" class="register-link">这就是我的偷题路线,JOJO!</a>
 						</div>
+					<div class="text-foot">
+						<a target="_blank" href="tutorial/tutorial.jsp" class="register-link">偷题教程</a>
+					</div>
 				</div>
 			</div>
 			<div class="lowin-box lowin-register">
