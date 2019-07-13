@@ -44,7 +44,7 @@
             <c:forEach items="${list }" var="list" varStatus="stat">
                 <tr class="text-c">
                     <td>${list.id }</td>
-                    <td><u style="cursor:pointer" class="text-primary" onclick="member_show('${list.id}','http://lx.lanqiao.cn/problem.page?gpid=T${list.id}','10001','700','600')">"http://lx.lanqiao.cn/problem.page?gpid=T${list.id}"</td>
+                    <td><a target="_blank" href="http://lx.lanqiao.cn/problem.page?gpid=T${list.id}" style="cursor:pointer" class="text-primary" >http://lx.lanqiao.cn/problem.page?gpid=T${list.id}</a></td>
                     <td>${sessionScope.username}</td>
                     <td>${list.date}</td>
                     <c:choose>
