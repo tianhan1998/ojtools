@@ -28,12 +28,12 @@
 	</div>
     <div class="main">
     <p>打开网站：<a target="_blank" href="http://lx.lanqiao.cn">蓝桥杯网站</a><br/>
-    <a target="_blank" href="http://152.136.100.48:8080/ojtools/login.jsp">偷题任务网站</a><br/>
+    <a target="_blank" href="http://140.143.237.99:8080/ojtools/login.jsp">偷题任务网站</a><br/>
     <a target="_blank" href="https://acm.aynusfys.cn/admin/">咱们的题目网站ayoj</a>
     <strong>三个网站都登陆一下，咱们的acm网站用前几天刚注册的账号登陆，点击右上角，进入后台设置</strong>
 </p>
 <p><strong>0.登陆ayoj后台后点击左侧问题标签，选择增加题目</strong></p>
-		<p><strong>1.点击<a href="http://152.136.100.48:8080/ojtools/login.jsp
+		<p><strong>1.点击<a href="http://140.143.237.99:8080/ojtools/login.jsp
 " target="_blank">偷题网址</a></strong>
 <br>
 <img src="01.png">
