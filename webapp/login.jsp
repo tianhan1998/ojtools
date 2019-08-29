@@ -560,15 +560,10 @@
 					<form action="${pageContext.request.contextPath }/LoginServlet" method="post">
 						<p>生命不息，偷题不止</p>
 						<div class="lowin-group">
-							<label>姓名</label>
-							<input type="text"  name="username" class="lowin-input" placeholder="输入后会为您分配题目，请认真对待">
+							<p>感谢各位对咱们学院oj的贡献，目前题目已经全部导入完成！</p>
 						</div>
 						<div class="lowin-group password-group">
 						</div>
-						<input type="checkbox" name="autologin" value="true" style="margin-bottom:20px">30天自动登录
-						<button class="lowin-btn login-btn">
-							登录
-						</button>
 					</form>
 						<div class="text-foot">
 							<a href="" class="register-link">这就是我的偷题路线,JOJO!</a>
